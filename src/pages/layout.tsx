@@ -16,6 +16,7 @@ export default function Layout({ pages }: Props) {
       <nav className="h-full min-w-40 overflow-auto bg-gray-200 p-2">
         {pages.map((page) => (
           <NavLink
+            key={page.path}
             to={page.path}
             className={({ isActive }) =>
               clsx(["block", isActive ? "text-pink-700" : "text-blue-700"])
