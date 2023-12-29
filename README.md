@@ -1,3 +1,11 @@
-# React + TypeScript + Vite
+# React Component Library
 
-This template provides a minimal setup to get React working in Vite with HMR and strict ESLint rules.
+Tech Stack:
+
+- React
+- TypeScript
+- TailwindCSS
+- Vite
+- Vitest
+- Testing Library
+- MSW
