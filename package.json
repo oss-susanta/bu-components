@@ -59,7 +59,8 @@
   "dependencies": {
     "ahooks": "^3.7.8",
     "clsx": "^2.0.0",
-    "redaxios": "^0.5.1"
+    "redaxios": "^0.5.1",
+    "zod": "^3.22.4"
   },
   "msw": {
     "workerDirectory": "public"
