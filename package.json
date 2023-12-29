@@ -36,6 +36,7 @@
     "prettier-plugin-tailwindcss": "^0.5.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1",
     "tailwindcss": "^3.4.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.8",
@@ -45,5 +46,8 @@
     "plugins": [
       "prettier-plugin-tailwindcss"
     ]
+  },
+  "dependencies": {
+    "clsx": "^2.0.0"
   }
 }
