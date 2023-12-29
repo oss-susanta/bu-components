@@ -2,7 +2,7 @@ import { useRequest } from "ahooks";
 import axios from "redaxios";
 
 export async function fetchName(id: string) {
-  return (await axios.get(`/name/${id}`))?.data;
+  return (await axios.get(`http://example.com/name/${id}`))?.data;
 }
 
 export default function Hello({ name }: { name: string }) {
